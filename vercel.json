@@ -3,6 +3,12 @@
   "redirects": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "ai-gastro-hub-duesseldorf.vercel.app"
+        }
+      ],
       "destination": "https://www.ki-gastronomie.com/staedte/duesseldorf/$1",
       "permanent": true
     }
